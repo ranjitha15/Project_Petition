@@ -1,0 +1,94 @@
+body{
+  box-sizing: border-box;
+  font-family: cursive;
+  color: #696969;
+}
+.container{
+  width: 57%;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-smaller-margin{
+  margin-top: 10px;
+}
+.container-login{
+  border-radius: 4px;
+  height: 475px;
+  width: 25%;
+  z-index: 999;
+  box-shadow:  0px 2px 2px rgba(0,0,0,0.3);
+}
+#signature{
+  border: 1px solid black;
+  display: block;
+  background: white;
+  margin: 30px 0px 30px 0px;
+}
+input{
+  width: 180px;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.input{
+  display: inline-block;
+  width: 200px;
+  z-index: 999;
+  font-size: 18px;
+}
+#logout-button{
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  margin: auto;
+}
+.button{
+  background: #4B77BE;
+  color: #eee;
+  font-size: 18px;
+  text-transform: none;
+}
+#para{
+  text-align: justify;
+}
+#label{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+.list{
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  align-self: center;
+  text-align: center;
+  list-style: none;
+  font-size: 24px;
+}
+.list li{
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-decoration: none;
+  color: #444;
+  border-bottom: 1px dotted grey;
+}
+#error{
+  color: red;
+}
+#link{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+#forwardlink{
+  font-size: 24px;
+}
+
+#cause{
+  font-size: 24px;
+}
