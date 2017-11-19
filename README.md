@@ -12,11 +12,11 @@ A petition for supporting the ban of a cruel game called Jallikattu to save bull
 
 2. Options to provide information such as Age, City and homepage
 
-![profile](https://user-images.githubusercontent.com/31618335/32996130-06fa3e4e-cd7f-11e7-8876-5a0d3939502c.gif)
+![profile](https://user-images.githubusercontent.com/31618335/32996387-3c11b956-cd82-11e7-9d97-184a8aea3736.gif)
 
 3. Sign using their mouse pad on the canvas field
 
-![signature](https://user-images.githubusercontent.com/31618335/32996132-0740d7fa-cd7f-11e7-9976-033b64f502ba.gif)
+![signature](https://user-images.githubusercontent.com/31618335/32996388-3c3000fa-cd82-11e7-8f95-f34c1f0eb669.gif)
 
 4. Thank you page
 
