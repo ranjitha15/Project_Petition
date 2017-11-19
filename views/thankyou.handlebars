@@ -1,0 +1,12 @@
+<!-- THANKS MESSAGE-->
+<div class="container">
+  <h2>Thank you for signing the petition</h1>
+  <a id = "link" href="/signature/signers">Click here to see all {{count}} supporters!</a>
+  <button class="button"  type="submit"><i class="fa fa-pencil"></i><a id="button-link"href="/profile/edit"> Edit user profile</a></button>
+</div>
+<!-- LOGOUT-->
+  <form id ="logout-button" method="post" action="/logout">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="button"  type="submit"><i class="fa fa-sign-out"></i> Logout</button>
+    <p>User: {{user.first}} {{user.last}}</p>
+  </form>

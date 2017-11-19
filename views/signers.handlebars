@@ -1,0 +1,18 @@
+<!--LIST OF SIGNERS -->
+<div class="container">
+  <h2>List of signers who supported the cause</h1>
+  <ul class = "list">
+    {{#each name}}
+    <li>{{#if this.url}}<a href="{{this.url}}">{{this.first_name}} {{this.last_name}}</a> {{else}} {{this.first_name}} {{this.last_name}} {{/if}}
+    {{#if this.age}}({{this.age}}{{#if this.city}}, <a href="/signature/signers/{{this.city}}">{{this.city}}</a>{{/if}}) {{else}} {{/if}}</li>
+    {{/each}}
+  </ul>
+</div>
+<!--LOGOUT -->
+<form id = "logout-button" action="/logout" method="post">
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <button class = "button" type="submit" name="button">
+    <i class="fa fa-sign-out"></i>
+    Logout</button>
+    
+</form>

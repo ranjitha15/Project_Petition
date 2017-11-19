@@ -1,0 +1,33 @@
+<!-- LOGIN-->
+<div class="container container-login">
+  <h2 class="lead">Welcome! Please login</h1>
+
+  <form class="" action="/login" method="post">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <div class="container container-smaller-margin">
+
+  <!--LOGIN DETAILS -->
+
+    <div class="input">
+      <label for="first">Email address</label>
+      <input type="email" name="email" value="">
+    </div>
+    <div class="input">
+      <label for="last">Password</label>
+      <input type="password" name="password" value="">
+    </div>
+  </div>
+  <br>
+
+    <div class="">
+      <button type="submit" class="button">
+        <i class="fa fa-sign-in" aria-hidden="true"></i>
+        LOGIN!</button>
+
+    </div>
+
+    <p id = "error">{{error}}</p>
+
+  </form>
+  <p>Not a member, please <a href="/register">Register!</a></p>
+</div>

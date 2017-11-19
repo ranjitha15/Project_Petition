@@ -1,0 +1,31 @@
+<!--PROFILE -->
+<div class="container">
+  <h2>Tell us about yourself</h1>
+  <form class="" action="/profile" method="post">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+<!-- USER DETAILS-->
+    <div class="container">
+      <div class="input">
+        <label for="age">Age</label>
+        <input type="text" name="age" value="">
+      </div>
+
+      <div class="input">
+        <label for="city">City</label>
+        <input type="text" name="city" value="">
+      </div>
+
+      <div class="input">
+        <label for="homepage">Homepage</label>
+        <input type="text" name="url" value="">
+      </div>
+
+      <br>
+
+
+      <button class="button" type="submit" name="button">Next</button>
+
+    </div> <!--container -->
+  </form>
+</div><!-- container-->

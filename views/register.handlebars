@@ -1,0 +1,38 @@
+<!--SIGN UP REGISTRATION FORM -->
+<div class="container">
+  <h2>Please save the Bulls from Jallikattu</h2>
+  <form class="" action = "/register" method="POST">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+<!--REGISTRATION DETAILS -->
+    <div class="">
+      <div class="input">
+        <label for="first">First Name</label>
+        <input type="text" name="first" value="">
+      </div>
+
+      <div class="input">
+        <label for="last">Last Name</label>
+        <input type="text" name="last" value="">
+      </div>
+    </div>
+
+    <div class="">
+      <div class="input">
+        <label for="email">Email</label>
+        <input type="text" name="email" value="">
+      </div>
+      <div class="input">
+        <label for="password">Password</label>
+        <input type="text" name="password" value="">
+      </div>
+    </div>
+
+    <br>
+
+    <button class="button" type="submit" name="button"><i class="fa fa-user"></i>Register</button>
+    <p id = "error">{{error}}</p>
+</form>
+
+  <p id = "forwardlink">Already a member, please <a href="/login">LOGIN!</a></p>
+</div>
