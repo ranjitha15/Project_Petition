@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS signatures;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS user_profiles;
+
+CREATE TABLE signatures(
+  id SERIAL PRIMARY KEY,
+  signature TEXT NOT NULL,
+  user_id INTEGER NOT NULL REFERENCES users(id),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE users(
+  user_id SERIAL PRIMARY KEY,
+  first VARCHAR NOT NULL,
+  last VARCHAR NOT NULL,
+  email VARCHAR NOT NULL UNIQUE,
+  password VARCHAR NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE user_profiles(
+  id  SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id),
+  age VARCHAR(300),
+  city VARCHAR(300),
+  url VARCHAR(300)
+);
