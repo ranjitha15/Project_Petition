@@ -28,7 +28,7 @@ A petition for supporting the ban of a cruel game called Jallikattu to save bull
 
 6. Update profile information
 
-![edit profile](https://user-images.githubusercontent.com/31618335/32996127-069b3cf0-cd7f-11e7-8478-f353be132e83.gif)
+![edit profile 1](https://user-images.githubusercontent.com/31618335/32996171-c2e5a22e-cd7f-11e7-8fbe-ffa11c6a7df6.gif)
 
 7. Login, Incorrect credentials warning & Logout
 ![login](https://user-images.githubusercontent.com/31618335/32996128-06ba4a0a-cd7f-11e7-9ea3-689e9cead216.gif)
