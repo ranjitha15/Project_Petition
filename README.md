@@ -8,9 +8,7 @@ A petition for supporting the ban of a cruel game called Jallikattu to save bull
 ### FEATURES
 1. User registration and user sign-in along with error message for missing fields
 
-![registration](https://user-images.githubusercontent.com/31618335/32995122-80caa6dc-cd70-11e7-8692-86ed04c44bd0.JPG)
-
-![missing fields](https://user-images.githubusercontent.com/31618335/32995123-837e38da-cd70-11e7-85da-f8758b39b98e.JPG)
+![registration](https://user-images.githubusercontent.com/31618335/32995967-94c8a6f0-cd7c-11e7-8c4e-e3b468f25633.gif)
 
 2. Options to provide information such as Age, City and homepage
 
