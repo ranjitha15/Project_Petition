@@ -8,33 +8,29 @@ A petition for supporting the ban of a cruel game called Jallikattu to save bull
 ### FEATURES
 1. User registration and user sign-in along with error message for missing fields
 
-![registration](https://user-images.githubusercontent.com/31618335/32995967-94c8a6f0-cd7c-11e7-8c4e-e3b468f25633.gif)
+![registration](https://user-images.githubusercontent.com/31618335/32996131-07194992-cd7f-11e7-982d-a68d20741296.gif)
 
 2. Options to provide information such as Age, City and homepage
 
-![profile](https://user-images.githubusercontent.com/31618335/32995125-87a79a6e-cd70-11e7-8e2a-d49c21fdef89.JPG)
+![profile](https://user-images.githubusercontent.com/31618335/32996130-06fa3e4e-cd7f-11e7-8876-5a0d3939502c.gif)
 
 3. Sign using their mouse pad on the canvas field
 
-![signature](https://user-images.githubusercontent.com/31618335/32995126-8b6a4b4c-cd70-11e7-8088-03fc26ee6152.JPG)
+![signature](https://user-images.githubusercontent.com/31618335/32996132-0740d7fa-cd7f-11e7-9976-033b64f502ba.gif)
 
 4. Thank you page
 
 ![thankyou](https://user-images.githubusercontent.com/31618335/32995129-8f7a5948-cd70-11e7-8e29-14d083458ee8.JPG)
 
-5. View all signers of the petition
+5. View all signers of the petition &  Filter the signers by City
 
-![signers](https://user-images.githubusercontent.com/31618335/32995130-939385a4-cd70-11e7-8942-3193c6247141.JPG)
+![signers](https://user-images.githubusercontent.com/31618335/32996133-0773f702-cd7f-11e7-8af8-38f49213bcd1.gif)
 
-6. Filter the signers by City
+6. Update profile information
 
-7. Update profile information
+![edit profile](https://user-images.githubusercontent.com/31618335/32996127-069b3cf0-cd7f-11e7-8478-f353be132e83.gif)
 
-![editprofile](https://user-images.githubusercontent.com/31618335/32995131-974331b8-cd70-11e7-8eba-68427117420c.JPG)
+7. Login, Incorrect credentials warning & Logout
+![login](https://user-images.githubusercontent.com/31618335/32996128-06ba4a0a-cd7f-11e7-9ea3-689e9cead216.gif)
 
-8. Login and Incorrect credentials warning
-![login](https://user-images.githubusercontent.com/31618335/32995135-9eb1bd16-cd70-11e7-8c7c-2177c4dcf98d.JPG)
-
-![incorrect login](https://user-images.githubusercontent.com/31618335/32995132-998a27ba-cd70-11e7-9301-ddb0aafda434.JPG)
-
-![incorrect password login](https://user-images.githubusercontent.com/31618335/32995134-9b833098-cd70-11e7-90b4-9717a1a5f4b5.JPG)
+![logout](https://user-images.githubusercontent.com/31618335/32996129-06d9ef5e-cd7f-11e7-8e62-5e2e7ca6a5ea.gif)
